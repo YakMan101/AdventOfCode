@@ -5,6 +5,7 @@ import numpy as np
 
 def load_input() -> list[int]:
     """Return input data"""
+    
     with open("input.txt", "r", encoding="utf-8") as f:
         return np.array([[int(z) for z in list(x.strip())] for x in f.readlines()])
 
