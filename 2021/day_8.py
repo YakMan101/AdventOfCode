@@ -1,6 +1,6 @@
 """Functions to solve Day-8"""
 
-UNIQUE_NUMBERS_DICT = {
+UNIQUE_NUMBERS_DICT = {  # number of segments for digit display
     2: 1,
     4: 4,
     3: 7,
